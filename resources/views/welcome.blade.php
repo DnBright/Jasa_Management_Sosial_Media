@@ -40,8 +40,9 @@
         .text-gradient {
             background: var(--gradient-brand);
             -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
             background-clip: text;
+            -webkit-text-fill-color: transparent;
+            color: transparent;
         }
 
         .container {
@@ -58,8 +59,8 @@
             width: 90%;
             max-width: 1200px;
             background: rgba(7, 9, 25, 0.7);
-            backdrop-filter: blur(16px);
             -webkit-backdrop-filter: blur(16px);
+            backdrop-filter: blur(16px);
             border: 1px solid var(--glass-border);
             border-radius: 50px;
             display: flex;
@@ -249,7 +250,9 @@
             font-weight: 800;
             background: var(--gradient-brand);
             -webkit-background-clip: text;
+            background-clip: text;
             -webkit-text-fill-color: transparent;
+            color: transparent;
             line-height: 1;
             margin-bottom: 10px;
         }
